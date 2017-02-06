@@ -2,10 +2,10 @@
 
 In this lab you will be modeling an Object Oriented racing game using constructors and `node.js`. Unlike the game you built in your browser, this game will have *no visual representation*. The only way to play this game is by calling methods on objects.
 
+> Jargon Note: The words "model", "constructor", "class", "resource", and "object" mean roughly the same thing, but are used in different contexts.
+> 
 ## Sidenote: What is MVC?
 MVC stands for "Model", "View", "Controller" and is a convenient way to divide the responsibility of a program.
-
-> Jargon Note: The words "model", "constructor", "class", "resource", and "object" mean roughly the same thing, but are used in different contexts.
 
 - **Model** -- a combination of data and behavior. A `Flower` model can be thought of as having attributes (`f.height`, `f.color`, `f.petals`) and behaviors (`f.grow()`, `f.drink()`, `f.crossPolinate(f2)`) that make it seem alive.
 - **Controller** -- The controller is the glue between the model and the view. A controller handles updating the "state" of both the model and the view. For example, a controller may take a command from the user (like "up arrow"), call a method on a model (e.g. `f.grow()`), and then re-render the view.
@@ -38,11 +38,11 @@ MVC stands for "Model", "View", "Controller" and is a convenient way to divide t
 <details>
 <summary>**What is the job of the controller?** (Click Here)</summary>
 <br>
-- To listen for the user to select (mousedown) a piece that belongs to them, drag their mouse to a new square, and release (mouseup) the piece. The controller communicates to the board that a piece needs to be moved from one position to another. The board checks what kind of piece it is and whether it is a legal move. If the move is legal, the DOM is re-rendered. If the move is not legal, the move is canceled.
+- (Browser) To listen for the user to select (mousedown) a piece that belongs to them, drag their mouse to a new square, and release (mouseup) the piece. The controller communicates to the board that a piece needs to be moved from one position to another. The board checks what kind of piece it is and whether it is a legal move. If the move is legal, the DOM is re-rendered. If the move is not legal, the move is canceled.
 
-- To wait for the user to submit a text-based command (e.g. "move B4 to C5"). The controller communicates to the board that piece needs to be moved. The board checks what kind of piece it is and whether it is a legal move. If the move is legal, an updated board is printed to the command line. If the move is not legal, the move is canceled.
+- (Command Line Interface) To wait for the user to submit a text-based command (e.g. "move B4 to C5"). The controller communicates to the board that piece needs to be moved. The board checks what kind of piece it is and whether it is a legal move. If the move is legal, an updated board is printed to the command line. If the move is not legal, the move is canceled.
 
-- To wait for the user to speak their command into the phone (e.g. "move B4 to C5"). The controller communicates to the board that piece needs to be moved. The board checks what kind of piece it is and whether it is a legal move. If the move is legal, the user hears: "B4 moved to C5. Player 1, your turn". If the move is not legal, the user hears: "Illegal move. Player 2, try again".
+- (Phone Dialogue System) To wait for the user to speak their command into the phone (e.g. "take the White Pawn with the Black Queen"). The controller communicates to the board that piece needs to be moved. The board checks what kind of piece it is and whether it is a legal move. If the move is legal, the user hears: "Black Queen takes White Pawn. Player 1, your turn". If the move is not legal, the user hears: "Illegal move. Player 2, try again".
 </details>
 
 
