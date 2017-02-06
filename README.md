@@ -12,7 +12,7 @@ MVC stands for "Model", "View", "Controller" and is a convenient way to divide t
 - **View** -- a visual representation of the underlying data. A "view" can be "rendered" in a browser, on the command line, or even via a touch-tone phone.
 
 #### Exercise: Design a game of chess using the MVC pattern
-<!-- TODO: image -->
+![chessboard](https://cloud.githubusercontent.com/assets/1489337/22665750/bffba6a4-ec6a-11e6-9f04-f2c62d0025fb.gif)
 
 <!-- DO NOT INDENT details/summary BLOCK -->
 <details>
