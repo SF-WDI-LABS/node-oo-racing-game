@@ -3,7 +3,7 @@
 In this lab you will be modeling an Object Oriented racing game using constructors and `node.js`. Unlike the game you built in your browser, this game will have *no visual representation*. The only way to play this game is by calling methods on objects.
 
 > Jargon Note: The words "model", "constructor", "class", "resource", and "object" mean roughly the same thing, but are used in different contexts.
-> 
+
 ## Sidenote: What is MVC?
 MVC stands for "Model", "View", "Controller" and is a convenient way to divide the responsibility of a program.
 
@@ -11,7 +11,7 @@ MVC stands for "Model", "View", "Controller" and is a convenient way to divide t
 - **Controller** -- The controller is the glue between the model and the view. A controller handles updating the "state" of both the model and the view. For example, a controller may take a command from the user (like "up arrow"), call a method on a model (e.g. `f.grow()`), and then re-render the view.
 - **View** -- a visual representation of the underlying data. A "view" can be "rendered" in a browser, on the command line, or even via a touch-tone phone.
 
-#### Exercise: Design a game of chess using the MVC pattern
+### Exercise: Design a game of chess using the MVC pattern
 ![chessboard](https://cloud.githubusercontent.com/assets/1489337/22665750/bffba6a4-ec6a-11e6-9f04-f2c62d0025fb.gif)
 
 <!-- DO NOT INDENT details/summary BLOCK -->
@@ -60,7 +60,7 @@ Before we jump into coding, let's think about the "models" or "agents" we need i
 - How does the object behave? (i.e. what methods/interfaces does it have?)
 
 
-#### Driver Code Example
+### Driver Code Example
 It's helpful to think about an object in terms of its interfaces. For example, energetic Sally is 12 (her attributes), she's likes to jump around and hates taking naps (her behaviors). Before we write any implementation code, we can think about the "interfaces" (methods) she exposes.
 
 ```js
@@ -89,7 +89,7 @@ sally.hasEnergy(); //=> true
         //=> sally refuses to jump when she is tired: true
         //=> sally has energy after a nap: true
 
-#### Exercise: Write Driver Code for your Game
+### Exercise: Write Driver Code for your Game
 
 Setup:
 
