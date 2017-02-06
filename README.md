@@ -46,7 +46,7 @@ MVC stands for "Model", "View", "Controller" and is a convenient way to divide t
 </details>
 
 
-> Pro-Tip: Developers often say: *Controllers should be "fat" and Models should be "skinny"*. That means your models should be doing the heavy lifting!
+> Pro-Tip: Developers often say: *Controllers should be "fat" and Models should be "skinny"*. That means your controllers should be doing the heavy lifting!
 
 
 ## The OO Racing Game
