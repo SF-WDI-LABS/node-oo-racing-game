@@ -1,4 +1,4 @@
-var Bread = require("./toast-demo/toaster.js");
+var Toaster = require("./toast-demo/toaster.js");
 
 var brave = new Toaster();
 brave.slots //=> 1
