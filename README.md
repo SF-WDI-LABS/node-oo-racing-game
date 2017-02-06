@@ -134,3 +134,5 @@ Now run your code again: `node test-racing-game-player.js`. What happens now? Do
 - **Repeat the above steps for each of your player's methods**
     + e.g. `player.move()`
     + How will you confirm the method works? What steps need to be taken in what order?
+- **Repeat the above steps for each of your models**
+    + e.g. `Game` (knows about all the players, knows the game is over, knows who won a round)
