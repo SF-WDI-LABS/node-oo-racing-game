@@ -85,9 +85,11 @@ sally.hasEnergy(); //=> true
 - Can you modify `sally-demo/child.js` to make the code work?
     + You will need to fill in the empty methods to get the desired output:
 
+    ```
         //=> sally has energy at first: true
         //=> sally refuses to jump when she is tired: true
         //=> sally has energy after a nap: true
+    ```
 
 ### Exercise: Write Driver Code for your Game
 
