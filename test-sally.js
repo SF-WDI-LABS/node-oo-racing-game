@@ -7,7 +7,8 @@ console.log("//=> sally has energy at first:", sally.hasEnergy() === true);
 
 sally.jump();      //=> true
 sally.hasEnergy(); //=> true
-sally.jump();      //=> false
+sally.jump();      //=> true
+sally.hasEnergy(); //=> false
 console.log("//=> sally refuses to jump when she is tired:", sally.jump() === false);
 
 sally.takeNap();   //=> true
